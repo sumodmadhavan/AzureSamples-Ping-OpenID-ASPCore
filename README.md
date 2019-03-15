@@ -97,11 +97,11 @@ public void Configure(string name, OpenIdConnectOptions options)
 
 ![alt text](https://github.com/sumodmadhavan/AzureSamples-Ping-OpenID-ASPCore/blob/master/Images/config.png "Implicit Flow ")
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/output.png "MVC Result")
+![alt text](https://github.com/sumodmadhavan/AzureSamples-Ping-OpenID-ASPCore/blob/master/Images/output.pngg "MVC Result")
 
 ## Sample Meta-Data
 
-''' Open ID Meta-Data
+```OPen ID Meta-Data from Server
 {
 	"issuer": "https://sso-dev.company.com",
 	"authorization_endpoint": "https://sso-dev.company.com/as/authorization.oauth2",
@@ -213,7 +213,7 @@ public void Configure(string name, OpenIdConnectOptions options)
 	]
 }
 
-'''
+```
 ## Ref:
 
 - https://www.pingidentity.com/developer/en/index.html
