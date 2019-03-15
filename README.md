@@ -99,6 +99,121 @@ public void Configure(string name, OpenIdConnectOptions options)
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/output.png "MVC Result")
 
+## Sample Meta-Data
+
+''' Open ID Meta-Data
+{
+	"issuer": "https://sso-dev.company.com",
+	"authorization_endpoint": "https://sso-dev.company.com/as/authorization.oauth2",
+	"token_endpoint": "https://sso-dev.company.com/as/token.oauth2",
+	"revocation_endpoint": "https://sso-dev.company.com/as/revoke_token.oauth2",
+	"userinfo_endpoint": "https://sso-dev.company.com/idp/userinfo.openid",
+	"introspection_endpoint": "https://sso-dev.company.com/as/introspect.oauth2",
+	"jwks_uri": "https://sso-dev.company.com/pf/JWKS",
+	"registration_endpoint": "https://sso-dev.company.com/as/clients.oauth2",
+	"ping_revoked_sris_endpoint": "https://sso-dev.company.com/pf-ws/rest/sessionMgmt/revokedSris",
+	"ping_end_session_endpoint": "https://sso-dev.company.com/idp/startSLO.ping",
+	"device_authorization_endpoint": "https://sso-dev.company.com/as/device_authz.oauth2",
+	"scopes_supported": [
+		"address",
+		"edit",
+		"phone",
+		"openid",
+		"offline_access",
+		"profile",
+		"groups",
+		"last_name",
+		"first_name",
+		"list_users",
+		"email"
+	],
+	"claims_supported": [
+		"groups",
+		"sub",
+		"uid"
+	],
+	"response_types_supported": [
+		"code",
+		"token",
+		"id_token",
+		"code token",
+		"code id_token",
+		"token id_token",
+		"code token id_token"
+	],
+	"response_modes_supported": [
+		"fragment",
+		"query",
+		"form_post"
+	],
+	"grant_types_supported": [
+		"implicit",
+		"authorization_code",
+		"refresh_token",
+		"password",
+		"client_credentials",
+		"urn:pingidentity.com:oauth2:grant_type:validate_bearer",
+		"urn:ietf:params:oauth:grant-type:jwt-bearer",
+		"urn:ietf:params:oauth:grant-type:saml2-bearer",
+		"urn:ietf:params:oauth:grant-type:device_code"
+	],
+	"subject_types_supported": [
+		"public"
+	],
+	"id_token_signing_alg_values_supported": [
+		"none",
+		"HS256",
+		"HS384",
+		"HS512",
+		"RS256",
+		"RS384",
+		"RS512",
+		"ES256",
+		"ES384",
+		"ES512"
+	],
+	"token_endpoint_auth_methods_supported": [
+		"client_secret_basic",
+		"client_secret_post",
+		"private_key_jwt"
+	],
+	"token_endpoint_auth_signing_alg_values_supported": [
+		"RS256",
+		"RS384",
+		"RS512",
+		"ES256",
+		"ES384",
+		"ES512"
+	],
+	"claim_types_supported": [
+		"normal"
+	],
+	"claims_parameter_supported": false,
+	"request_parameter_supported": true,
+	"request_uri_parameter_supported": false,
+	"request_object_signing_alg_values_supported": [
+		"RS256",
+		"RS384",
+		"RS512",
+		"ES256",
+		"ES384",
+		"ES512"
+	],
+	"id_token_encryption_alg_values_supported": [
+		"dir",
+		"A128KW",
+		"A128GCMKW",
+		"ECDH-ES",
+		"ECDH-ES+A128KW",
+		"RSA-OAEP"
+	],
+	"id_token_encryption_enc_values_supported": [
+		"A128CBC-HS256",
+		"A128GCM"
+	]
+}
+
+'''
 ## Ref:
 
 - https://www.pingidentity.com/developer/en/index.html
