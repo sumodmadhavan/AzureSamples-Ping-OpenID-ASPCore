@@ -92,7 +92,12 @@ public void Configure(string name, OpenIdConnectOptions options)
 ```
 
 ## Output :
- 
+
+![alt text](https://github.com/sumodmadhavan/AzureSamples-Ping-OpenID-ASPCore/blob/master/Images/reply.png "Reply URL ")
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 ## Ref:
 
