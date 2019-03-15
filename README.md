@@ -97,7 +97,7 @@ public void Configure(string name, OpenIdConnectOptions options)
 
 ![alt text](https://github.com/sumodmadhavan/AzureSamples-Ping-OpenID-ASPCore/blob/master/Images/config.png "Implicit Flow ")
 
-![alt text](https://github.com/sumodmadhavan/AzureSamples-Ping-OpenID-ASPCore/blob/master/Images/output.pngg "MVC Result")
+![alt text](https://github.com/sumodmadhavan/AzureSamples-Ping-OpenID-ASPCore/blob/master/Images/output.png "MVC Result")
 
 ## Sample Meta-Data
 
