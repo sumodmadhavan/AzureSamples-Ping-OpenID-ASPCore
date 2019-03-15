@@ -41,7 +41,7 @@ Make a request to the app. The app immediately attempts to authenticate you via 
 
 ## About The code
 
--- You can inject a ContextAccessor to access the httpContext.
+- You can inject a ContextAccessor to access the httpContext.
 
 ```Dependency Injection
 
@@ -91,9 +91,10 @@ public void Configure(string name, OpenIdConnectOptions options)
 
 ```
 
-## Output : 
+## Output :
+ 
 
-## REFERRENCE
+## Ref:
 
 - https://www.pingidentity.com/developer/en/index.html
 - https://github.com/Azure-Samples/active-directory-dotnet-webapp-openidconnect-aspnetcore
